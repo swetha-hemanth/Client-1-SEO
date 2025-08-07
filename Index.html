@@ -106,6 +106,134 @@ footer {
 }
 
   </style>
+     <head>  
+      <!-- Tailwind CSS -->    <script src="https://cdn.tailwindcss.com"></script>    <!-- AOS Animation -->    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    <!-- Google Fonts -->    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@700&family=Merriweather:wght@400;700&family=Poppins&display=swap" rel="stylesheet" />    <!-- Tailwind Config -->    <script>  
+    tailwind.config = {  
+      theme: {  
+        extend: {  
+          boxShadow: {  
+            'neon-pink': '0 0 30px 2px rgba(244,114,182,0.3)',  
+          }  
+        }  
+      }  
+    }  
+  </script>    <!-- Custom Styles -->    <style>  
+    html {  
+      scroll-behavior: smooth;  
+    }  
+    body {  
+      margin: 0;  
+      font-family: 'Poppins', sans-serif;  
+      background-color: #000;  
+    }  
+    nav a:hover {  
+      color: gold;  
+    }  
+    h1, h2 {  
+      font-family: 'Playfair Display', serif;  
+    }  
+    .elegant-nav {  
+      font-family: 'Playfair Display', serif;  
+    }  
+    .lato-heading {  
+      font-family: 'Lato', sans-serif;  
+      font-weight: 700;  
+      text-transform: uppercase;  
+    }  
+    .merri-text {  
+      font-family: 'Merriweather', serif;  
+    }  
+    .fixed-buttons {  
+      position: fixed;  
+      bottom: 20px;  
+      right: 20px;  
+      display: flex;  
+      flex-direction: column;  
+      gap: 10px;  
+      z-index: 50;  
+    }  
+    .glow-border-blue {  
+      border-top: 2px solid #00BFFF;  
+      box-shadow: 0 -1px 15px 0 #00BFFF;  
+    }  
+    .glow-bottom-blue {  
+      border-bottom: 2px solid #00BFFF;  
+      box-shadow: 0 2px 15px 0 #00BFFF;  
+    }  
+    .neon-glow-box {  
+      border: 2px solid #00f0ff;  
+      border-radius: 12px;  
+      box-shadow:  
+        0 0 10px #00f0ff,  
+        0 0 20px #00f0ff,  
+        0 0 30px #00f0ff,  
+        0 0 40px #00f0ff;  
+    }  
+    .neon-box {  
+      border: 2px solid #8a2be2;  
+      background-color: transparent;  
+      box-shadow:  
+        0 0 10px #8a2be2,  
+        0 0 20px #8a2be2,  
+        0 0 30px #8a2be2,  
+        0 0 40px #8a2be2;  
+    }  
+  </style>    <style>  
+  .gallery-bg {  
+    background: linear-gradient(-45deg, #FAF3E0, #FDEBD0, #FAF3E0, #FFEBCD);  
+    background-size: 400% 400%;  
+    animation: gradientGallery 10s ease infinite;  
+  }  
+
+  .pricing-bg {  
+    background: linear-gradient(-45deg, #F5F0EB, #EDE6DE, #F5F0EB, #FFF5E1);  
+    background-size: 400% 400%;  
+    animation: gradientPricing 10s ease infinite;  
+  }  
+
+  .reviews-bg {  
+    background: linear-gradient(-45deg, #FDF6F0, #FAEEE0, #FDF6F0, #FFEFD5);  
+    background-size: 400% 400%;  
+    animation: gradientReviews 10s ease infinite;  
+  }  
+
+  .contact-bg {  
+    background: linear-gradient(-45deg, #F3F7F8, #E8F1F2, #F3F7F8, #DDEBF0);  
+    background-size: 400% 400%;  
+    animation: gradientContact 10s ease infinite;  
+  }  
+
+  .guidelines-bg {  
+    background: linear-gradient(-45deg, #F5F5F5, #EAEAEA, #F5F5F5, #E0E0E0);  
+    background-size: 400% 400%;  
+    animation: gradientGuidelines 10s ease infinite;  
+  }  
+
+  @keyframes gradientGallery,  
+  gradientPricing,  
+  gradientReviews,  
+  gradientContact,  
+  gradientGuidelines {  
+    0% { background-position: 0% 50%; }  
+    50% { background-position: 100% 50%; }  
+    100% { background-position: 0% 50%; }  
+  }  
+  </style>    <!-- AOS Animation CSS -->  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />  <!-- Custom Smooth Animation (Optional) -->  <style>  
+  html {  
+    scroll-behavior: smooth;  
+  }  
+</style>  <!-- AOS Animation JS -->  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <!-- AOS Initialization -->  <script>  
+  document.addEventListener('DOMContentLoaded', function () {  
+    AOS.init({  
+      duration: 1000,  
+      once: true, // Animate only once  
+      easing: 'ease-in-out',  
+    });  
+  });  
+</script>  
+   </head>
+<body class="overflow-x-hidden snap-y snap-mandatory overflow-y-scroll h-screen">
 </head>
   <body class="overflow-x-hidden">
 <body class="overflow-x-hidden">
